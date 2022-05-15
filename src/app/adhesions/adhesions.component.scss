@@ -1,0 +1,47 @@
+.title{color: rgba(var(--main-color-site), 1);
+font-size: 24px;
+margin: 0 0 16px 0;
+padding: 0;
+-webkit-font-smoothing: auto;
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+font-family: "AeonikRegular",sans-serif;
+--main-color-tmp: 3, 14, 47;
+--main-color-site: 3, 14, 47;
+--secondary-color-tmp: 99, 195, 123;
+--secondary-color-site: 99, 195, 123;}
+ 
+.horiz_bar {
+  width: 100%;
+ height: 42px ;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #e4e9ef;
+  text-align: center;
+  
+  box-sizing: 38 ;
+  display: block;
+  color: #393939;
+
+}
+.style_bar1{
+  color: rgba(var(--main-color-site), 1);
+  border-bottom: 3px solid rgba(var(--main-color-site), 1);
+  margin: 0;
+  padding: 16px;
+  height: 52px;
+  font-weight: 400;
+  font-family: "AeonikRegular",sans-serif;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+    font-size: 15px;
+    box-sizing: border-box;
+    margin-right: 5%;
+    -webkit-font-smoothing: antialiased;
+    --main-color-site: 3, 14, 47;
+} 

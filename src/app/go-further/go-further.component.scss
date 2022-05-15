@@ -1,0 +1,152 @@
+.title{color: rgba(var(--main-color-site), 1);
+  font-size: 24px;
+  margin: 0 0 16px 0;
+  padding: 0;
+  -webkit-font-smoothing: auto;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "AeonikRegular",sans-serif;
+  --main-color-tmp: 3, 14, 47;
+  --main-color-site: 3, 14, 47;
+  --secondary-color-tmp: 99, 195, 123;
+  --secondary-color-site: 99, 195, 123;}
+.card{
+  margin-bottom: 24px;
+  background: #fff;
+  padding: 29px;
+  text-align: center;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #e4e9ef;
+  font-weight: 400;
+  font-size: 14px;
+  box-sizing: border-box;
+
+}
+  .pic1_frame,.pic2_frame{
+    width: calc(50% - 20px);
+    padding: 0;
+    margin: 0;
+   
+    font-size: 14px;
+    font-family: "AeonikRegular",sans-serif;
+ 
+    -webkit-font-smoothing: antialiased;
+ 
+  }
+  .pics{
+    margin-bottom: 16px;
+    justify-content: space-between;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    font-family: "AeonikRegular",sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: #393939;
+  }
+  .pic1,.pic2{
+    width: 65%;
+    margin: 0;
+    padding: 0;
+  }
+  .texts{
+    margin-bottom: 16px;
+    font-family: "AeonikRegular",sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: #393939;
+    font-size: 14px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-right: 30px;
+
+  
+
+    .P1, .p2{
+      font-size: 14px;
+      font-family: "AeonikRegular",sans-serif;
+       font-weight: 400;
+        color: #393939;
+        margin-right: 50px;
+
+    }
+  }
+  .T1, .T2{
+    font-family: "AeonikRegular",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #393939;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 16px 0 8px 0;
+    text-align: left;
+  }
+  .text1, .text2{
+    color: #8c929a;
+    text-align: left;
+    margin: 0;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+    font-family: "AeonikRegular",sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased; 
+  }
+.download{
+  font-size: 14px;
+  display: flex;
+    width: 135px ;
+    cursor: pointer;
+     margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "AeonikRegular",sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: #393939;
+}
+.log1, .log2{
+ 
+    width: 135px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    font-family: "AeonikRegular",sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: #393939;
+    margin-right: 48px;
+}
+.log2{
+    width: 135px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    font-family: "AeonikRegular",sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: #393939;
+}

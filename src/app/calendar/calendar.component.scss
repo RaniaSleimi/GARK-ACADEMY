@@ -1,0 +1,14 @@
+.title {
+  color: rgba(var(--main-color-site), 1);
+  font-size: 24px;
+  margin: 0 0 16px 0;
+  padding: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: 'AeonikRegular', sans-serif;
+  --main-color-site: 3, 14, 47;
+}

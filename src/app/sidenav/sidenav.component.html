@@ -1,0 +1,41 @@
+<div
+  class="sidenav ng-icon-sidebar--{{ opened ? 'opened' : 'closed' }}"
+  (focusin)="onFocusIn()"
+  (focusout)="onFocusOut()"
+  (mouseenter)="onMouseEnter()"
+  (mouseleave)="onMouseLeave()"
+  role="complementary"
+>
+  <div class="LOGO">
+        <a  href="/">
+          <img
+            src="https://d3949ah8cpww7d.cloudfront.net/media/image/site_logo/168x168/9f66ed2a8ecee813e153ab22f93cf7b2/1cae1a5674ba4820bbf3109c1b59cb39.png"
+
+            (click)="toggleCollapse()" alt="logo" style="max-width:60px; max-height:60px ; align: center; border-radius: 90%; margin-top: 10"/></a>
+          </div>   
+          
+         
+          
+        
+    
+    <button class="btn-close" *ngIf="opened" (click)="closeSidenav()">
+      <mat-icon>clear</mat-icon>
+    </button>
+  
+  <ul class="sidenav-nav">
+    <li class="sidenav-nav-item" *ngFor="let data of navData">
+      <a
+        class="sidenav-nav-link"
+        [routerLink]="[data.routeLink]"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <mat-icon aria-hidden="false">{{ data.label }}</mat-icon>
+
+        <span class="sidenav-link-text" @fadeInOut *ngIf="opened" >{{
+          data.name
+        }}</span>
+      </a>
+    </li>
+  </ul>
+</div>
